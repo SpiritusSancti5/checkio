@@ -1,0 +1,1 @@
+golf=B=>{s=0;B.match(/[A-Z][1-9]/g).map(e=>s+=(parseInt(e[0],36)-10)*9+ +e[1]);return s}
