@@ -1,0 +1,1 @@
+golf=p=>{p.push(0);n=p.length;c=[];c[0]=0;c[1]=p[0];for(i=2;i<n+1;i++)c[i]=p[i-1]+Math.max(c[i-2],c[i-1]);return c[n]}
